@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import AlbumFeature from "./features/Album/index.jsx";
+import ColorBox from "./components/ColorBox/index";
+import Counter from "./components/Counter/index";
 
 function App() {
   return (
     <div className="App">
-      <AlbumFeature />
+      <ColorBox />
+      <Counter />
     </div>
   );
 }
