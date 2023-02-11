@@ -1,11 +1,11 @@
 import React from "react";
-import TodoFeature from "./features/Todo/index.jsx";
 import "./App.css";
+import AlbumFeature from "./features/Album/index.jsx";
 
 function App() {
   return (
     <div className="App">
-      <TodoFeature />
+      <AlbumFeature />
     </div>
   );
 }
